@@ -45,5 +45,5 @@ function dxdt = ODE(~,x)
         dxdt(j+2) = a_p*x(j+1)-dp*x(j+2);
         dxdt(j+3) = -(x(2)+x(5))*x(j+3)-dxdt(j+1)-dm(i)*x(j+1)+a_sigma;
     end
-
+    
 end
